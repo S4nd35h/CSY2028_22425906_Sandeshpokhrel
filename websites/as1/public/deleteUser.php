@@ -10,7 +10,7 @@ include 'header.php';
 * @return void
 */ 
 //only logged in users can delete users and only if they are admin
-if (isset($_SESSION['logged_in']) && $_SESSION['role'] == 'admin') {
+if (isset($_SESSION['loggedin']) && $_SESSION['role'] == 'admin') {
     $deleteUser = $join->prepare("DELETE FROM users WHERE user_id = $_GET[id]");
     $deleteUser->execute();
 }
