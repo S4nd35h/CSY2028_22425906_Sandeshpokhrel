@@ -3,8 +3,10 @@
 This project is a database-driven website built for auctioning cars. It is developed as part of the CSY2028 Web Programming assignment using PHP, MySQL, and a Docker environment. The project adheres to the supplied design layout and meets all specified requirements.
 
 ---
+## Video demo including the setup: `https://youtu.be/u93DyaGhkvI`
 
 ## It may take a few minutes for the website to initialize, during which time you might encounter a "SQL connection rejected" error. If this happens, go to the following link:`https://as1.v.je`and press Enter to refresh the page. The website should operate as intended after that.
+## DO NOT USE "docker compose up" ALONE YOU SHOULD USE "docker compose up -d" so that it runs 
 
 ## User Credentials
 
