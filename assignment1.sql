@@ -53,7 +53,7 @@ INSERT INTO `auction` (`auction_id`, `title`, `description`, `image`, `categoryI
 (7, 'Chevrolet Camaro', 'Classic American muscle', 'car.png', 3, '2024-12-23', 1),
 (8, 'Ford Mustang', 'Iconic sports coupe', 'car.png', 3, '2024-12-30', 2),
 (9, 'BMW 4 Series', 'Stylish and sporty', 'car.png', 3, '2024-12-28', 1),
-(10, 'Toyota Camry', 'A reliable family sedan', 'astonn.png', 4, '2024-12-26', 2),
+(10, 'Toyota Camry', 'A reliable family sedan', 'car.png', 4, '2024-12-26', 2),
 (11, 'Honda Accord', 'Comfort and performance', 'car.png', 4, '2024-12-23', 1),
 (12, 'BMW 3 Series', 'Sporty and elegant', 'car.png', 4, '2024-12-29', 2),
 (13, 'Jeep Wrangler', 'Tough and adventurous', 'car.png', 5, '2024-12-30', 1),

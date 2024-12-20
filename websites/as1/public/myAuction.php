@@ -30,7 +30,7 @@ if (isset($_SESSION['id'])) {
                 $title = htmlspecialchars($auction['title']);
                 $description = htmlspecialchars($auction['description']);
                 $endDate = htmlspecialchars($auction['endDate']);
-                $image = !empty($auction['image']) ? htmlspecialchars($auction['image']) : 'placeholder.png';
+                $image = !empty($row['image']) ? 'uploads/' . htmlspecialchars($row['image']) : 'uploads/car.png';
                 ?>
 
                 <div class="auction-item">

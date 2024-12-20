@@ -34,7 +34,7 @@ if ($count > 0) {
     // Loop through the auction results and display each item
     foreach ($auction as $row) {
         // Set a default image if no product image exists in the database
-        $image = !empty($row['image']) ? htmlspecialchars($row['image']) : 'placeholder.png';
+        $image = !empty($row['image']) ? 'uploads/' . htmlspecialchars($row['image']) : 'uploads/car.png';
 
         // Handle null current_bid value, default to 0 if no bid is found
         $currentBid = $row['current_bid'] !== null ? $row['current_bid'] : 0;
@@ -42,7 +42,7 @@ if ($count > 0) {
         // Display the auction item details in an unordered list
         echo '<ul class="carList">
             <li>
-                <img src="'. $image .'" alt="product image">
+                <img src="'. $image .'" alt="Product image not added to avoid copyright, but you can add it if you want to.">
                 <article>
                     <h2>' . htmlspecialchars($row['title']) . '</h2>
                     <h3>' . htmlspecialchars($row['category_name']) . '</h3>
